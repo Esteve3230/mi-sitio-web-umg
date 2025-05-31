@@ -1,0 +1,128 @@
+/* Estilo general */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #f7f7f7, #e2f0ff);
+  color: #333;
+}
+
+/* Bienvenida */
+.bienvenida {
+  text-align: center;
+  padding: 30px 20px;
+  background-color: #0099cc;
+  color: white;
+}
+
+.titulo {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.instruccion {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+/* Botones */
+.botones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.botones a {
+  text-decoration: none;
+  padding: 12px 20px;
+  background-color: #006699;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.botones a:hover {
+  background-color: #004466;
+}
+
+/* Tarjeta de perfil */
+.perfil-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 20px;
+}
+
+.perfil-card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.perfil-foto {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 3px solid #0099cc;
+}
+
+.perfil-card h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #0099cc;
+}
+
+.perfil-info {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.perfil-info li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+/* Responsive */
+@media screen and (max-width: 500px) {
+  .botones {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .perfil-card {
+    margin: 0 10px;
+  }
+}
+body {
+  margin: 0;
+  padding-bottom: 60px; /* espacio para el footer */
+  font-family: Arial, sans-serif;
+}
+
+.contenido {
+  padding: 20px;
+}
+
+.pie-de-pagina {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
+}

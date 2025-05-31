@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golosinas</title>
+    <link rel="stylesheet" href="GOLOSINAS.CSS">
+</head>
+
+<script src="carrito.js"></script>
+<body>
+
+    <section class="bienvenida">
+        <a href="BEBIDAS.HTML" class="boton-bebidas">IR A BEBIDAS</a> 
+        <p>BIENVENIDOS</p>
+        <a href="COMIDA.HTML" class="boton-comida">IR A COMIDA</a> 
+        <a href="GOLOSINAS.HTML" class="boton-golosinas">IR A GOLOSINAS</a>
+         <a href="index.html" class="boton-inicio">regresar al inicio</a>
+         <a href="perfil.html"class="boton-perfil">ir a mi perfil</a>
+    </section>
+
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">Logo</a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="images/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="submenu container">
+        <img id="img-carrito" src="images/car.svg" alt="carrito">
+        <div id="carrito">
+            <table id="lista-carrito">
+                <thead>
+                    <tr>
+                        <th>Imagen</th>
+                        <th>Nombre</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+            <a href="#" id="vaciar-carrito">Vaciar carrito</a>
+        </div>
+    </div>
+
+    <main class="products container">
+        <h2>Golosinas</h2>
+        <div class="box-container" id="lista-1">
+
+            <div class="golosinas">
+                <img src="images/pr2.png" alt="">
+                <div class="products-txt">
+                    <h3>Fresas naturales</h3>
+                    <p>Calidad premium</p>
+                    <p class="precio">Q.15.00</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="2">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="golosinas">
+                <img src="images/pr4.png" alt="">
+                <div class="products-txt">
+                    <h3>Soya con jugo de uva</h3>
+                    <p>Calidad premium</p>
+                    <p class="precio">Q.29.00</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="4">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="golosinas">
+                <img src="images/pr5.png" alt="">
+                <div class="products-txt">
+                    <h3>Chocolates</h3>
+                    <p>Calidad premium</p>
+                    <p class="precio">Q.14.00</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="golosinas">
+                <img src="images/pr3.png" alt="">
+                <div class="products-txt">
+                    <h3>Almendra chocolatada</h3>
+                    <p>Calidad premium</p>
+                    <p class="precio">Q.39.00</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="3">Agregar al carrito</a>
+                </div>
+            </div>
+<footer class="footer">
+          <div class="contenido">
+  <footer class="pie-de-pagina">
+    <p>Brandon Lopez- 3190-25-21750| Esteven Rodas 3190-23-20279</p>
+  </footer>
+        </div>
+    </main>
+
+</body>
+</html>
