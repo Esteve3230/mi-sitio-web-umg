@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="carrito.js"></script>
+
+<body>
+  <section class="bienvenida">
+  <p class="titulo">BIENVENIDOS</p>
+  <div class="botones">
+    <a href="BEBIDAS.HTML" class="boton-bebida">IR A BEBIDAS</a>
+    <a href="COMIDA.HTML" class="boton-comida">IR A COMIDA</a>
+    <a href="golosinas.HTML" class="boton-golosina">IR A GOLOSINAS</a>
+    <a href="perfil.html"class="boton-perfil">ir a mi perfil</a>
+  </div>
+  <p class="instruccion">HAZ CLICK ACA PARA IR A UNA CATEGORÍA</p>
+</section>
+
+</body>
+</html>
+<header class="header">
+  <div class="menu container">
+   <a href="#" class="logo"> logo</a>
+   <input type="checkbox" id="menu" />
+    <label for="menu">
+      <img src="images/menu.png" class="menu-icono" alt="menu">
+    </label>
+<nav class="navbar">
+  <ul>
+    <li><a href="#">inicio</a></li>
+    <li><a href="#">servicos</a></li>
+    <li><a href="#">productos</a></li>
+    <li><a href="#">contacto</a></li>
+  </ul>
+</nav>
+<div>
+  <ul>
+    <li class="submenu">
+        <img  id="img-carrito"src="images/car.svg " alt="car">
+        <div id="carrito">
+             <table id="lista-carrito">
+               <thead>
+                    <tr>
+                       <th>imagen</th>
+                       <th>nombre</th>
+                       <th>precio</th>
+                    </tr>
+               </thead>
+              <tbody></tbody>
+             </table>
+             <a href="#" id="vaciar-carrito"> vaciar carrito</a>
+        </div>
+    </li>
+  </ul>
+</div>
+
+  </div>
+  <div class="header-content container">
+        <div class="header-txt">
+          <span>BIENVENIDO A NUESTRA TIENDA</span>
+          <H1>Ofertas especiales</H1>
+          <p>
+             En nuestro supermercado encontraras todo lo que necesitas para tu hogar al 
+             mejor precio. Te ofrecemos frutas y verduras frescas del dia, 
+             carnes de primera calidad, pan recien horneado y una amplia variedad de
+              productos lacteos. Tambien contamos con secciones de limpieza, 
+              cuidado personal y alimentos envasados de tus marcas favoritas. 
+              Aprovecha nuestras ofertas semanales y lleva mas por menos. 
+              Ven y descubre la calidad y variedad que tenemos para ti!
+
+          </p>
+          <div class="butons">
+                <a href="#" class="btn-1">informacion</a>
+                <a href="#" class="btn-1">leer mas</a>
+          </div>
+  </div>
+  <div class="header-img">
+         <img src="images/bag.png" alt="">
+  </div>
+  <div>
+    
+         <footer class="footer">
+          <div class="contenido">
+  <footer class="pie-de-pagina">
+    <p>Brandon Lopez- 3190-25-21750| Esteven Rodas 3190-23-20279</p>
+  </footer>
+</header>
+         <section class="oferts container">
+
+          <div class="ofert-1 b1">
+            <div class="ofert-txt">
+              <h3>  Aprovecha Nuestras Ofertas</h3>
+              <a href="#"> Leer Mas</a>
+            </div>
+              <div class=" ofert-img">
+                  <img src="images/s1.png" alt="">
+              </div>
+          </div>
+          
+          <div class="ofert-1 b2">
+            <div class="ofert-txt">
+              <h3>  Aprovecha Nuestras Ofertas</h3>
+              <a href="#"> Leer Mas</a>
+            </div>
+              <div class=" ofert-img">
+                  <img src="images/s2.png" alt="">
+              </div>
+          </div>
+          
+          <div class="ofert-1 b3">
+            <div class="ofert-txt">
+              <h3>  Aprovecha Nuestras Ofertas</h3>
+              <a href="#"> Leer Mas</a>
+            </div>
+              <div class=" ofert-img">
+                  <img src="images/s3.png" alt="">
+              </div>
+          </div>
+
+         </section>
+
+         <main class="products container">
+               <h2>Productos</h2>
+               
+               <div class="box-container" id="lista-1">
+
+                <div class="box">
+                  <img src="images/pr1.png" alt="">
+                  <div class="products-txt">
+                    <h3>soya natural</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">Q.19.00</p>
+                    <a href="#" class=" agregar-carrito btn-3" data-id="1">agregar al carrito</a>
+                    
+                  </div>
+                </div>
+
+                <div class="box">
+                  <img src="images/pr2.png" alt="">
+                  <div class="products-txt">
+                    <h3>fresas naturales</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">Q.15.00<P>
+                    <a href="#" class=" agregar-carrito btn-3" data-id="2">
+                      agregar al carrito
+                    </a>
+                    
+                  </div>
+                </div>
+                   <div class="box">
+                  <img src="images/pr3.png" alt="">
+                  <div class="products-txt">
+                    <h3>almendra chocolatada</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">Q.39.00</p>
+                    <a href="#" class=" agregar-carrito btn-3" data-id="3">
+                      agregar al carrito
+                    </a>
+                    
+                  </div>
+                </div>
+                  <div class="box">
+                  <img src="images/pr4.png" alt="">
+                  <div class="products-txt">
+                    <h3>soya con jugo de uva</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">Q.29.00</p>
+                    <a href="#" class=" agregar-carrito btn-3" data-id="4">
+                      agregar al carrito
+                    </a>
+                    
+                  </div>
+                </div>
+                <div class="box">
+                  <img src="images/pr5.png" alt="">
+                  <div class="products-txt">
+                    <h3>Chocolates</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">Q.14.00</p>
+                    <a href="#" class=" agregar-carrito btn-3" data-id="5">
+                      agregar al carrito
+                    </a>
+                    
+                  </div>
+                </div>
+                <div class="box">
+                 <img src="images/pr6.png" alt="">
+                  <div class="products-txt">
+                    <h3>verduras fritas</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">Q.27.00</p>
+                    <a href="#" class=" agregar-carrito btn-3" data-id="6">
+                      agregar al carrito
+                    </a>
+                    
+                  </div>
+                </div>
+                <div class="box">
+                 <img src="images/pr7.png" alt="">
+                  <div class="products-txt">
+                    <h3>Galletas Florentina</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">Q.35.00</p>
+                    <a href="#" class=" agregar-carrito btn-3" data-id="7">
+                      agregar al carrito
+                    </a>
+                    
+                  </div>
+                </div>
+                <div class="box">
+                 <img src="images/pr8.png" alt="">
+                  <div class="products-txt">
+                    <h3>Leche liquida</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">Q.24.00</p>
+                    <a href="#" class=" agregar-carrito btn-3" data-id="8">
+                      agregar al carrito
+                    </a>
+                    
+                  </div>
+                </div>
+                <div class="box">
+                 <img src="images/pr9.png" alt="">
+                  <div class="products-txt">
+                    <h3> Arandanod cubiertos de chocolate</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">Q.45.00</p>
+                    <a href="#" class=" agregar-carrito btn-3" data-id="9">
+                      agregar al carrito
+                    </a>
+                    
+                  </div>
+                </div>
+                <div class="box">
+                 <img src="images/pr10.png" alt="">
+                  <div class="products-txt">
+                    <h3>Crunch con Chocolate</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">Q.30.00</p>
+                    <a href="#" class=" agregar-carrito btn-3" data-id="10">
+                      agregar al carrito
+                    </a>
+                    
+                  </div>
+                </div>
+                <div class="box">
+                 <img src="images/pr11.png" alt="">
+                  <div class="products-txt">
+                    <h3>elote enlaado</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">Q.45.00</p>
+                    <a href="#" class=" agregar-carrito btn-3" data-id="11">
+                      agregar al carrito
+                    </a>
+                    
+                  </div>
+                </div>
+                <div class="box">
+                 <img src="images/pr12.png" alt="">
+                  <div class="products-txt">
+                    <h3>Snack Asanita</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">Q.12.00</p>
+                    <a href="#" class=" agregar-carrito btn-3" data-id="12">
+                      agregar al carrito
+                    </a>
+                    
+                  </div>
+                </div>
+                <div class="box">
+                    <img src="images/panalitos para bebe.jpg" alt="">
+                  <div class="products-txt">
+                    <h3>panalitos para bebe</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">Q.455.00</p>
+                    <a href="#" class=" agregar-carrito btn-3" data-id="13">
+                      agregar al carrito
+                    </a>
+                    
+                  </div>
+                </div>
+                <div class="box">
+                    <img src="images/leche nestle nido.jpg" alt="">
+                  <div class="products-txt">
+                    <h3>Snack Asanita</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">Q.290.00</p>
+                    <a href="#" class=" agregar-carrito btn-3" data-id="14">
+                      agregar al carrito
+                    </a>
+                    
+                  </div>
+                </div>
+                <div class="box">
+                   <img src="images/cerveza corona.jpg" alt="">
+                  <div class="products-txt">
+                    <h3>cerveza CORONA</h3>
+                    <p>24 unidades</p>
+                    <p class="precio">Q.130.00</p>
+                    <a href="#" class=" agregar-carrito btn-3" data-id="16">
+                      agregar al carrito
+                    </a>
+                     
+                    
+                  </div>
+                </div>
+                <div class="box">
+                    <img src="images/cerveza gallo.jpg" alt="">
+                  <div class="products-txt">
+                    <h3>cerveza gallo</h3>
+                    <p>30 unidades</p>
+                    <p class="precio">Q.190.00</p>
+                    <a href="#" class=" agregar-carrito btn-3" data-id="16">
+                      agregar al carrito
+                    </a>
+                    
+                  </div>
+                </div>
+                <div class="box">
+                    <img src="images/buchanans.png" alt="">
+                  <div class="products-txt">
+                    <h3>buchanans</h3>
+                    <p>licor</p>
+                    <p class="precio">Q.450.00</p>
+                    <a href="#" class=" agregar-carrito btn-3" data-id="17">
+                      agregar al carrito
+                    </a>
+                    
+                  </div>
+                </div>
+                <div class="box">
+                    <img src="images/jabon espumoso.jpeg" alt="">
+                  <div class="products-txt">
+                    <h3>jabon espumoso</h3>
+                    <p>higiene personal</p>
+                    <p class="precio">Q.120.00</p>
+                    <a href="#" class=" agregar-carrito btn-3" data-id="18">
+                      agregar al carrito
+                    </a>
+                    
+                  </div>
+                </div>
+                <div class="box">
+                    <img src="images/colgate.jpg" alt="">
+                  <div class="products-txt">
+                    <h3>pasta dental</h3>
+                    <p>higiene personal</p>
+                    <p class="precio">Q.99.00</p>
+                    <a href="#" class=" agregar-carrito btn-3" data-id="19">
+                      agregar al carrito
+                    </a>
+                    
+                  </div>
+                </div>
+                <div class="box">
+                    <img src="images/desodorante.jpg" alt="">
+                  <div class="products-txt">
+                    <h3>desodorante</h3>
+                    <p>higiene personal</p>
+                    <p class="precio">Q.128.00</p>
+                    <a href="#" class=" agregar-carrito btn-3" data-id="19">
+                      agregar al carrito
+                    </a>
+                    
+                  </div>
+                </div>
+                <div class="box">
+                    <img src="images/cereal 3 unidades.jpg" alt="">
+                  <div class="products-txt">
+                    <h3>cereal</h3>
+                    <p>cereales</p>
+                    <p class="precio">Q.79.00</p>
+                    <a href="#" class=" agregar-carrito btn-3" data-id="20">
+                      agregar al carrito
+                    </a>
+                    
+                  </div>
+                </div>
+                <div class="box">
+                    <img src="images/carne molida.jpg" alt="">
+                  <div class="products-txt">
+                    <h3>carne molida</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">Q.128.00</p>
+                    <a href="#" class=" agregar-carrito btn-3" data-id="21">
+                      agregar al carrito
+                    </a>
+                    
+                  </div>
+                </div>
+                <div class="box">
+                    <img src="images/costilla de cerdo.jpg" alt="">
+                  <div class="products-txt">
+                    <h3>costilla de cerdo</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">Q.199.00</p>
+                    <a href="#" class=" agregar-carrito btn-3" data-id="22">
+                      agregar al carrito
+                    </a>
+                    
+                  </div>
+                </div>
+               </div>
+               <div class="btn-2" id="load more"> cargar mas</div>
+         </main>
+
+         <section class="testimonial container">
+          <span>testimoniales</span>
+          <h2> Que opinan nuestros clientes</h2>
+          <div class="testimonal-content">
+            <div class="testimonial-1">
+              <p>
+                Desde que descubri este supermercado, hacer mis compras se volvio mucho mas facil
+                 y agradable. Siempre encuentro productos frescos, a buen precio, y la atencion del personal
+                  es excelente. Se nota el compromiso con la calidad y el buen servicio. Sin duda,
+                   mi lugar de confianza para hacer las compras del hogar."
+              </p>
+              <img src="images/starts.png" alt="">
+              <h4> 
+                Steven Rodas
+                </h4>
+
+            </div>
+                 <div class="testimonial-1">
+              <p>
+               Me encanta comprar en este supermercado porque siempre tienen todo lo que
+                necesito.Los precios son justos, el ambiente es ordenado y limpio, 
+                y el personal siempre esta dispuesto a ayudar.Es un lugar confiable donde
+                 se siente la buena atencion al cliente en cada visita.
+              </p>
+              <img src="images/starts.png" alt="">
+              <h4> 
+                Brandon Lopez
+                </h4>
+
+          </div>
+
+         </section>
+
+         <footer class="footer">
+          <div class="contenido">
+    <h1>integrantes</h1>
+    <p>Contenido de la página aquí...</p>
+  </div>
+
+  <!-- Pie de página -->
+  <footer class="pie-de-pagina">
+    <p>Brandon Lopez- 3190-25-21750| María Gómez - 20210002 | Carlos Ruiz - 20210003</p>
+  </footer>
+          <div class="footer-content container">
+            <div class="link">
+              <h3>Lorem </h3>
+              <ul>
+                <li><a href="#">lorem </a></li>
+                <li><a href="#">lorem </a></li>
+                <li><a href="#">lorem </a></li>
+                <li><a href="#">lorem </a></li>
+              </ul>
+
+            </div>
+              <div class="link">
+              <h3>Lorem </h3>
+              <ul>
+                <li><a href="#">lorem </a></li>
+                <li><a href="#">lorem </a></li>
+                <li><a href="#">lorem </a></li>
+                <li><a href="#">lorem </a></li>
+              </ul>
+
+            </div>
+              <div class="link">
+              <h3>Lorem </h3>
+              <ul>
+                <li><a href="#">lorem </a></li>
+                <li><a href="#">lorem </a></li>
+                <li><a href="#">lorem </a></li>
+                <li><a href="#">lorem </a></li>
+              </ul>
+
+            </div>
+              <div class="link">
+              <h3>Lorem </h3>
+              <ul>
+                <li><a href="#">lorem </a></li>
+                <li><a href="#">lorem </a></li>
+                <li><a href="#">lorem </a></li>
+                <li><a href="#">lorem </a></li>
+              </ul>
+
+            </div>
+
+          </div>
+
+
+         </footer>
+
+
+</body>
+</html>
+
